@@ -1,0 +1,238 @@
+ #phones{
+    display:flex;
+    width:1050px;
+     justify-content: space-between;
+     margin-left: 200px;
+}  
+#phones a{
+    color:black
+}
+#phones a:hover{
+    color: rgb(82, 82, 210);
+}
+#para{
+    background-color: rgb(230, 225, 225);
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+#para a,#main03 h1,#dots a{
+    color: rgb(68, 68, 223);
+}
+#para a:hover,#main1 a:hover,#main02 a:hover,#main03 a:hover,#main04 a:hover,#dots a:hover{
+    text-decoration: underline;
+}
+#main1{
+    text-align: center;
+    font-size: 23px;
+}
+#main1 button, #main02 button,#main03 button,#dots button{
+    background-color: rgb(74, 74, 222);
+    color:white;
+    height:35px;
+    width: 60px;
+    font-size: 17px;
+    border-radius: 14px;
+    margin: 20px;
+}
+#main1 a,#main02 a,#main03 a,#main04 a{
+    color: rgb(74, 74, 222);
+}
+main #ph1{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+
+}
+#main2{
+    height:800px;
+    border: 2px solid;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#phn2{
+   margin: 400px;
+    
+}
+#main02{
+    position: absolute;
+    top:1250px;
+    color:white;
+   text-align: center;
+   font-size: 23px;
+}
+#sec1,#sec2,#dots{
+    display:flex; 
+   justify-content: space-around;
+   margin: 10px;
+}
+#main03{
+    position: relative;
+    top:300px;
+    text-align: center;
+    font-size: 23px;    
+}
+#main04{
+    font-size: 27px;
+
+}
+#sec2{
+    position: relative;
+    top:250px;
+}
+#sec3{
+    border-radius: 40px;
+    position: relative;
+    top:250px;
+    left: 30px;
+   
+}
+#sec03{
+    background-image: url(./man.jpg);
+    border-radius: 20px;
+    background-repeat: repeat-x;
+    margin-top: 300px;
+    height:900px;
+    width: 4550px;
+}
+
+#main05{
+    margin: 250px;
+    color:white;
+    font-size: 23px;
+    position: relative;
+    top:100px;  
+}
+#main05 button{
+    height:35px;
+    width:150px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+#dots{
+    width:1100px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 20px;
+}
+#dot1{
+    text-align: center;
+    font-size: 40px;
+   margin-top: -100px;
+}
+#tot{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.abc{
+   /* box-shadow: 0px 0px 10px; */
+  
+    height: 550px;
+    width: 650px;
+    text-align: center;
+    background-color: white;
+    
+}
+#sec5,footer{
+    text-align: center;
+    margin-top: 300px;
+    background-color: rgb(242, 242, 242);
+}
+#abc1{
+    width:350px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 90px;
+    font-size: 20px;
+
+}
+.imgsec{
+font-size: 40px;
+ margin:140px;
+
+}
+#MagSafe{
+     background-color: white; 
+     width:1300px;
+     margin-left: 80px;
+}
+#MagSafe img{
+    height: 500px;
+    margin-left: 600px;
+}
+#MagSafe #div1{
+    width:400px;
+    height:100px;
+    font-size: 23px;
+    transform: translate(100px,200px);
+
+}
+#Airtag{
+ 
+        background-color: white; 
+        width:1300px;
+        margin-left: 80px;
+}
+#Airtag img{
+    height: 500px;
+    margin-left: -600px;
+}
+#div2{
+    transform: translate(250px,250px); 
+    font-size: 20px;
+}
+#abc6{
+    transform: translate(0px,-600px); 
+    font-size: 20px;
+}
+#ac{
+    font-size: 23px;
+    position: relative;
+    top:-100px;
+}
+#bundle{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+     padding: 200px;
+     width:950px;
+     height: 250px;
+     margin-left: 50px;
+     font-size: 25px;
+     box-shadow: 0px 0px 2px;
+}
+footer{
+   font-size: 12px;
+   color: grey;
+}
+#foot{
+    width:900px;
+    margin-top: -300px;
+    margin-left: 300px;
+}
+#foot1{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    width:900px;
+    margin-left: 300px;
+    color: black;
+}
+footer a{
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+#sec5 a{
+    color:blue;
+}#sec5 a:hover{
+    text-decoration: underline;
+}
